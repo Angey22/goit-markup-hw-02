@@ -1,23 +1,28 @@
 /* Common body parameters of all site pages */
 body {
-    position: relative; /* ? */
-    width: 1600px; /* ? */
-    background: #FFF; /* ? */
+    background: #FFF; /* + */
+    color: #757575; /* + */
     font-family: 'Roboto', sans-serif; /* + */
     font-weight: 400; /* ? */
-    color: #757575; /* + */
+    
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #2196F3;  /* Цвет должен быть задан переменной???*/
 }
 
 /* Site-nav link state at hover, focus & active*/
 .site-nav__link:hover,
-.site-nav__link:focus,
-.site-nav__link:active {
+.site-nav__link:focus {
     color: #2196F3;
 }
 
 /* Contacts link state at hover, focus & active*/
 .contacts__link:hover,
-.contacts__link:focus,
-.contacts__link:active {
+.contacts__link:focus {
     color: #2196F3;
 }
