@@ -1,3 +1,12 @@
+/* Palette of colors */
+/* Maine page background color -  #FFF */
+/* Secondary page background color - #2F303A */
+    /* Maine text color - #757575 */
+    /* Secondary text color - #212121 */
+    /* Complementary text color - #FFF */
+    /* Accent text color - #2196F3*/
+    /* Individual color of some text in footer - rgba(255, 255, 255, 0.6) */
+
 /* Common body parameters of all site pages */
 body {
     background: #FFF; /* + */
