@@ -1,0 +1,23 @@
+/* Common body parameters of all site pages */
+body {
+    position: relative;
+    width: 1600px;
+    background: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #757575;
+}
+
+/* Site-nav link state at hover, focus & active*/
+.site-nav__link:hover,
+.site-nav__link:focus,
+.site-nav__link:active {
+    color: #2196F3;
+}
+
+/* Contacts link state at hover, focus & active*/
+.contacts__link:hover,
+.contacts__link:focus,
+.contacts__link:active {
+    color: #2196F3;
+}
