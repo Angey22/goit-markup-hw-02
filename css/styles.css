@@ -45,12 +45,12 @@ body {
     letter-spacing: 0.03em; /* ? */
     color: #2196F3;  /* Цвет должен быть задан переменной??? */
 }
-    .logo__second-half {
+    .logo-second-half {
         color: #000; /* Цвет должен быть задан переменной??? */
     }
 
 /* Site navigation */
-.site-nav__link {
+.site-nav-link {
     text-decoration: none;
     font-style: normal; /* ? */
     font-weight: 500; /* ? */
@@ -59,16 +59,16 @@ body {
     letter-spacing: 0.02em; /* ? */
     color: var(--secondary-text-color); /* + */
 }
-    .site-nav__link:hover,
-    .site-nav__link:focus {
+    .site-nav-link:hover,
+    .site-nav-link:focus {
         color: var(--accent-text-color); /* + */
     }
 
 /* Contact information */
 
 /* Contacts link state at hover, focus & active*/
-.contacts__link:hover,
-.contacts__link:focus {
+.contacts-link:hover,
+.contacts-link:focus {
     color: var(--accent-text-color); /* + */
 }
 
@@ -76,7 +76,7 @@ body {
 .hero {
     background-color: var(--complementary-background-color); /* + */
 }
-    .hero__title {
+    .hero-title {
         font-style: normal; /* ? */
         font-weight: 900; /* ? */
         font-size: 44px; /* ? */
@@ -88,7 +88,7 @@ body {
     }
 
 /* General settings for "sections" of all pages of the site */
-.section__title {
+.section-title {
     font-style: normal; /* ? */
     font-weight: 700; /* ? */
     font-size: 36px; /* ? */
@@ -99,7 +99,7 @@ body {
 }
 
 /* Особливості - "Peculiarities", page index.html */
-.peculiarities-list__title {
+.peculiarities-list-title {
     font-style: normal; /* ? */
     font-weight: 700; /* ? */
     font-size: 14px; /* ? */
