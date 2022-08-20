@@ -130,7 +130,7 @@ body {
         /* Button geometry */
         background: var(--accent-text-color); /* + */        
         border-radius: 4px; /* ? */
-        border: 1px solid #000000; /* ? */
+        border: none; /* + */
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); /* ? */
         width: 216px; /* ? */
         height: 50px; /* ? */
@@ -179,6 +179,12 @@ body {
 }
 
 /* Наша команда, section on page index.html */
+.team-item {
+background: var(--complementary-text-color);
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+}
+
 .team-name {
     font-weight: 500; /* + */
     font-size: 16px; /* + */
@@ -198,6 +204,7 @@ body {
     cursor: pointer; /* + */
     /* Button geometry */
     background: var(--secondary-background-color); /* + */
+    border: none; /* + */
     border-radius: 4px; /* ? */
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); /* ? */
     /* Button text */
@@ -213,6 +220,7 @@ body {
         .portfolio-button:hover,
         .portfolio-button:focus {
         background-color: var(--accent-text-color); /* + */
+        color: var(--complementary-text-color);
         box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12); /* ? */
         border-radius: 4px; /* ? */
         }
